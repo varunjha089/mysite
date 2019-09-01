@@ -21,4 +21,4 @@ python manage.py runserve
 
 ```
 
-For a detailed explanation on how things work, check out the [guide](https://codingwithmitch.com/courses/building-a-website-django-python/) and [docs for django](https://docs.djangoproject.com/en/2.2/).
+For a detailed explanation on how things work, check out the [course](https://codingwithmitch.com/courses/building-a-website-django-python/) and [docs for django](https://docs.djangoproject.com/en/2.2/).
