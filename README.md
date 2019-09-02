@@ -11,13 +11,16 @@ python install -r requiement.txt
 # serve with hot reload at localhost:8080
 python manage.py runserve
 
-# Added the "personal" app
+# To add an app to the project
+python manage.py startapp <app_name>
+
+# Added the "personal" app using
 python manage.py startapp personal
 
-# Added the "account" app
+# Added the "account" app using
 python manage.py startapp account
 
-# To add an app to project go to "mysite/settings.py" files under INSTALLED_APP section add as follows :-
+# After creating an app make sure to add it to project go to "mysite/settings.py" files under INSTALLED_APP section add as follows :-
 '<app_name>.apps.<App_name>Congig',
 
     eg., app name is personal
