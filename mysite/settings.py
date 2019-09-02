@@ -33,8 +33,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
 
     # project app
-    #'personal'
-    'account.apps.AccountConfig'
+    'personal.apps.PersonalConfig',
+    'account.apps.AccountConfig',
 
 
     'django.contrib.admin',
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'personal.apps.PersonalConfig',
+
 ]
 
 MIDDLEWARE = [
