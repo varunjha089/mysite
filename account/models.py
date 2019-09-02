@@ -47,7 +47,6 @@ class Account(AbstractBaseUser):
     # first_name = models.CharField(max_length=60, verbose_name="First Name")
     # second_name = models.CharField(max_length=60, verbose_name="Second Name")
 
-
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
 
