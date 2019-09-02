@@ -34,6 +34,7 @@ INSTALLED_APPS = [
 
     # project app
     #'personal'
+    'account.apps.AccountConfig'
 
 
     'django.contrib.admin',
