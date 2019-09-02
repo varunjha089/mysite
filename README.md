@@ -21,7 +21,7 @@ python manage.py startapp personal
 python manage.py startapp account
 
 # After creating an app make sure to add it to project go to "mysite/settings.py" files under INSTALLED_APP section add as follows :-
-'<app_name>.apps.<App_name>Congig',
+'<app_name>.apps.<App_name>Config',
 
     eg., app name is personal
     INSTALLED_APP = [
