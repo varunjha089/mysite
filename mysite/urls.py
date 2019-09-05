@@ -34,3 +34,11 @@ urlpatterns = [
     path('login/', login_view, name="login"),
     path('account/', account_view, name="account"),
 ]
+
+
+
+
+
+
+
+
