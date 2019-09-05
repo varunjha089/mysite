@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96983d9d-5335-48dd-bdb2-ee797c15ecf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/account/templates/account/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/snippets/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/snippets/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal/templates/personal/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal/templates/personal/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +113,8 @@
       <workItem from="1567404387976" duration="17296000" />
       <workItem from="1567519041036" duration="729000" />
       <workItem from="1567523728927" duration="1522000" />
-      <workItem from="1567615009811" duration="3376000" />
+      <workItem from="1567615009811" duration="4971000" />
+      <workItem from="1567662282538" duration="2194000" />
     </task>
     <servers />
   </component>
