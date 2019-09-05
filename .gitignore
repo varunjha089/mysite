@@ -84,4 +84,5 @@ fabric.properties
 .idea/sonarlint
 
 *.sqlite3
+
 # End of https://www.gitignore.io/api/pycharm
