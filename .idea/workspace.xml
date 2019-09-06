@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96983d9d-5335-48dd-bdb2-ee797c15ecf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +125,7 @@
       <workItem from="1567685041373" duration="513000" />
       <workItem from="1567687259115" duration="10399000" />
       <workItem from="1567702005330" duration="32000" />
-      <workItem from="1567742009879" duration="4723000" />
+      <workItem from="1567742009879" duration="6039000" />
     </task>
     <servers />
   </component>
