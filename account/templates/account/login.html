@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 
 {% block content %}
 
@@ -38,33 +38,35 @@
     <form class="form-signin" method="post">{% csrf_token %}
 
         {#    logo on signin screen#}
-            {% load static %}
-            <img src="{% static "brand/default.svg" %}" alt="tune your code" width="72" height="72">
+        <div class="d-flex flex-column pb-3">
+            <img class="img-fluid mx-auto d-block" src="{% static 'brand/TuneYourCode.png' %}" alt="TuneYourCode logo image" width="100" height="100">
+        </div>
 
-            <h1 class="h3 mb-3 font-weight-normal">Log in</h1>
 
-            <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <h1 class="h3 mb-3 font-weight-normal">Log in</h1>
 
-            <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
 
-            {% for field in login_form %}
-                  <p>
-                        {% for error in field.errors %}
-                              <div class="alert alert-danger" role="alert">
-        {#                            <p style="color: red">{{ error }}</p>#}
-                                    <p>{{ error }}</p>
-                              </div>
+        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
 
-                        {% endfor %}
-                  </p>
-            {% endfor %}
-            {% if login_form.non_field_errors %}
+        {% for field in login_form %}
+            <p>
+                {% for error in field.errors %}
                     <div class="alert alert-danger" role="alert">
-                          <p>{{login_form.non_field_errors}}</p>
+        {#                <p style="color: red">{{ error }}</p>#}
+                        <p>{{ error }}</p>
                     </div>
-            {% endif %}
 
-            <button class="btn btn-lg btn-outline-success btn-block" type="submit">Log in</button>
+                {% endfor %}
+            </p>
+        {% endfor %}
+        {% if login_form.non_field_errors %}
+            <div class="alert alert-danger" role="alert">
+                <p>{{login_form.non_field_errors}}</p>
+            </div>
+        {% endif %}
+
+        <button class="btn btn-lg btn-outline-success btn-block" type="submit">Log in</button>
     </form>
 
     <div class="d-flex flex-column">
