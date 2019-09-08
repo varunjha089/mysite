@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96983d9d-5335-48dd-bdb2-ee797c15ecf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/snippets/blog_post_pagination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/snippets/blog_post_snippet.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/snippets/blog_post_snippet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal/templates/personal/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/personal/templates/personal/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/snippets/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/snippets/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/snippets/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/snippets/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +127,7 @@
       <workItem from="1567870978306" duration="2612000" />
       <workItem from="1567924040732" duration="6090000" />
       <workItem from="1567950720803" duration="867000" />
-      <workItem from="1567955124993" duration="2889000" />
+      <workItem from="1567955124993" duration="4201000" />
     </task>
     <servers />
   </component>
