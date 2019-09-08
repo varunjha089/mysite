@@ -54,11 +54,17 @@
 			<!-- end Top 'create post' bar -->
 
 			<!-- Blog posts-->
-			{% for post in blog_posts %}
+			{% if blog_posts %}
+				{% for post in blog_posts %}
+					<div class="blog-post-container">
+						{% include 'blog/snippets/blog_post_snippet.html' with blog_post=post %}
+					</div>
+				{% endfor %}
+			{% else %}
 				<div class="blog-post-container">
-					{% include 'blog/snippets/blog_post_snippet.html' with blog_post=post %}
+					{% include 'blog/snippets/blog_post_snippet.html' with query=query %}
 				</div>
-			{% endfor %}
+			{% endif %}
 			<!-- End Blog posts-->
 		</div>
 		<!-- end blog feed -->
